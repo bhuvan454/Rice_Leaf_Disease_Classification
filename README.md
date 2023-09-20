@@ -35,9 +35,9 @@ You can install the required packages using the provided `requirements.txt` file
 
 In this code repostitory, a classic resetnet based image classification task is prefromed with the pytorch. Whats new in this repository? I have utilized the GPU and CPU to parallelize the all operations. Pytorch is amazingly good at the parallleizing the model traing, and inferance, where as in the most of the pipelines the bottleneck could be the preprocessing step. So, to tackle that issue, I have used the python multiprocessing inbuilt funtions to create the multi worker pool to speed up those non-gpu tasks. 
 
-So for this dataset I have used rice leaf disease dataset from the  <a href = https://www.kaggle.com/datasets/vbookshelf/rice-leaf-diseases> kaggle </a>, in this dataset, we have three classes of the diseased rice leaf. Leaf smut, Brown spot, Bacterial leaf blight are the classes. 
+So for this dataset I have used rice leaf disease dataset from the  <a href = "https://www.kaggle.com/datasets/vbookshelf/rice-leaf-diseases" target="_blank"> kaggle </a>, in this dataset, we have three classes of the diseased rice leaf. Leaf smut, Brown spot, Bacterial leaf blight are the classes. 
 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+![image](LeafDisease_classification\data\figures\sample_images.png)
 
 ├── fedlab
 │   ├── contrib
