@@ -34,6 +34,7 @@ class CustomDataset():
             for file_name in os.listdir(os.path.join(data_dir, class_name)):
                 self.image_paths.append(os.path.join(data_dir,class_name,file_name))
                 self.image_labels.append(i)
+                # self.image_labels.append(class_name)
 
     def __len__(self):
         return len(self.image_paths)
