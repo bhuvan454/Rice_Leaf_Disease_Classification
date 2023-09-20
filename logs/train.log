@@ -1,0 +1,16 @@
+INFO:root:Start training...
+INFO:root:Using device: cuda
+INFO:root:Dataset size: 120
+INFO:root:Train dataset size: 96
+INFO:root:Val dataset size: 12
+INFO:root:Test dataset size: 12
+INFO:root:Number of workers: 16
+INFO:root:Train dataloader size: 3
+INFO:root:Val dataloader size: 1
+INFO:root:Test dataloader size: 1
+INFO:root:Train loss: [1.0624054670333862, 0.6125373840332031, 0.4857257604598999, 0.30883774161338806, 0.656805157661438, 0.21859385073184967, 0.0780581459403038, 0.459710031747818, 0.44451436400413513, 0.02809053845703602, 0.1164238229393959, 0.10148277133703232, 0.060868777334690094, 0.007982696406543255, 0.04915787652134895]
+INFO:root:Val loss: [0.17399686574935913]
+INFO:root:Test loss: [0.1812393069267273]
+INFO:root:Val accuracies: [75.0]
+INFO:root:Test accuracies: [83.33333333333333]
+INFO:root:End training...
