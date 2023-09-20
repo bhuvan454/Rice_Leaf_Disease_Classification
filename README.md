@@ -37,7 +37,7 @@ In this code repostitory, a classic resetnet based image classification task is 
 
 So for this dataset I have used rice leaf disease dataset from the  <a href = "https://www.kaggle.com/datasets/vbookshelf/rice-leaf-diseases" target="_blank"> kaggle </a>, in this dataset, we have three classes of the diseased rice leaf. Leaf smut, Brown spot, Bacterial leaf blight are the classes. 
 
-![image](LeafDisease_classification\data\figures\sample_images.png)
+![image](data/figures/sample_images.png)
 
 ├── fedlab
 │   ├── contrib
