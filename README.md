@@ -23,6 +23,7 @@ You can install the required packages using the provided `requirements.txt` file
 ### file structure
 
 '''bash 
+
 ├── fedlab
 │   ├── contrib
 │   ├── core
@@ -42,6 +43,7 @@ You can install the required packages using the provided `requirements.txt` file
     ├── customize_tutorial.ipynb
     ├── pipeline_tutorial.ipynb
     └── ...
+
 '''
 
 ### Installation
