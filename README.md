@@ -49,11 +49,16 @@ You can install the required packages using the provided `requirements.txt` file
 ### Installation
 
 1. Clone this repository:
+```
+git clone https://github.com/bhuvan454/Rice_Leaf_Disease_Classification.git
+cd LeafDisease_classfication
+```
 
-   - git clone https://github.com/bhuvan454/Rice_Leaf_Disease_Classification.git
-   - cd LeafDisease_classfication
+2.  Install the requirements 
 
-2.  pip install -r requirements.txt
+``` 
+pip install -r requirements.txt 
+```
 
 3.  Run the training
 
